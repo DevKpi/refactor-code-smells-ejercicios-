@@ -14,6 +14,8 @@ function f(a, b) {
     return a - (a * b / 100);
 }
 
+module.exports = f;
+
 // Parte A
 // Antes de modificarla, crear tests para:
 // descuento normal;
@@ -21,11 +23,14 @@ function f(a, b) {
 // descuento 100%;
 // descuento negativo;
 // descuento superior a 100%.
+
 // Parte B
 // Ejecutar: npm test
 // Todos deberían representar el comportamiento actual esperado.
+
 // Parte C
 // Refactorizar.
+
 // Parte D
 // Ejecutar nuevamente exactamente los mismos tests.
 // El objetivo no es solamente mejorar la función.
