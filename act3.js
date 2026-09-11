@@ -36,3 +36,12 @@ module.exports = f;
 // El objetivo no es solamente mejorar la función.
 // El objetivo es experimentar el ciclo: Test → Refactor → Test.
 
+// Parte C - Refactor
+function calcularDescuento(precio, porcentajeDescuento) {
+    if (porcentajeDescuento <= 0 || porcentajeDescuento > 100) {
+        return precio;
+    }
+    return precio - (precio * porcentajeDescuento / 100);
+}
+
+module.exports = calcularDescuento;
