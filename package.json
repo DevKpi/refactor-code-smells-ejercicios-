@@ -1,0 +1,17 @@
+{
+  "name": "refactor---code-smells",
+  "version": "1.0.0",
+  "description": "",
+  "main": "act1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.5.1",
+    "nodemon": "^3.1.14"
+  }
+}
